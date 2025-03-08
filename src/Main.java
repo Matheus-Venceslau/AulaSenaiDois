@@ -16,6 +16,11 @@ public class Main {
         System.out.println("O salário do funcionario é: " + empresa.valorSalarioFuncionario);
         System.out.println("O cargo do funcionario é: " + empresa.cargoFuncionario);
 
+        // Testando a nova Branch
+        
+        EmpresaSetor empresaSetor = new EmpresaSetor();
+        System.out.println(empresaSetor.nomeSetorFinanca);
+
         // Declaração de variáveis Java:
 
         int aumento = 12;
